@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellFinance</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div class="header">
+        <div class="ico-text">
+            <img src="./images/icon.webp" alt="icon" width="20" height="20">
+            <header>WellFinance</header>
+        </div>
+        <button id="up-btn" class="sign-up">Log in</button>
+    </div>
+    
+    <div class="main">
+        <div class="top">
+            <h2>Get started with WellFinance</h2>
+            <p>WellFinance is a financial planning tool that helps you save for your future. It also offers health management services to help you manage your health and wellness.</p>
+        </div>
+
+        <form class="form">
+            <label for="first-name">First Name</label><br><br>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" class="textbox" size="80"><br><br>
+
+            <label for="last-name">Last Name</label><br><br>
+            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" class="textbox" size="80"><br><br>
+
+            <label for="email">Email</label><br><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" class="textbox" size="80"><br><br>
+
+            <label for="password">Password</label><br><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" class="textbox" size="80"><br><br>
+
+            <label for="countries">Choose Your Country:</label><br><br>
+            <select class="textbox" id="countries" name="countries">
+                <option value="India">India</option>
+                <option value="United States of America">United States of America</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="China">China</option>
+            </select>
+        </form>
+
+        <div class="btn">
+            <button type="button" class="login">Log in</button>
+            <button type="submit" class="sign-up">Sign up</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./auth.js"></script>
+</body>
+</html>
